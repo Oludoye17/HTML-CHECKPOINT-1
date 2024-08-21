@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <style>
+      header {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 30px;
+      }
+      nav {
+        background: grey;
+        text-align: center;
+        padding: 20px;
+      }
+      #navbar {
+        display: inline;
+        list-style: none;
+        margin: 5px;
+      }
+      #navbar li {
+        display: inline;
+      }
+      a {
+        text-decoration: none;
+        padding: 4px;
+        color: white;
+      }
+      section {
+        border: 50px;
+      }
+      #resume2 {
+        list-style: disc;
+      }
+      #resume2 li {
+        margin-bottom: 12px;
+      }
+      #video {
+        display: flex;
+        justify-content: center;
+      }
+      .form {
+        padding: 20px;
+        background: #f4f4f4;
+        margin: 20px 0;
+        width: 100%;
+        margin: 0;
+      }
+      .form input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+    footer {
+      background-color: grey;
+    }
+    .icon{
+      width:100px;
+      display: flex;
+      gap: 20px;
+      
+    }
+    </style>
+  </head>
+  <body>
+    <!--Header section-->
+    <header>
+      <h1>OLUDOYE OLUMIDE</h1>
+      <p>Aspiring full stack web developer</p>
+    </header>
+    <!-- Navigation section -->
+    <nav>
+      <ul id="navbar">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Work">Work</a></li>
+        <li><a href="#Resume">Resume</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!--Home section-->
+    <section id="Home">
+      <h2>Welcome to my portfolio.</h2>
+      <p>
+        I'm Oludoye Olumide, an aspiring full stack web developer passionate
+        about crafting seamless and dynamic web applications. With a blend of
+        creativity and technical expertise, I'm dedicated to building innovative
+        solutions that enhance user experiences. Explore my work and let's
+        connect.
+      </p>
+    </section>
+
+    <!--About section-->
+    <section id="About">
+      <h2>About Me</h2>
+      <p>
+        Hi, I'm Oludoye Olumide. I've embarked on a journey to master the art of
+        full stack web development, combining frontend aesthetics with backend
+        functionality. has provided me with a strong foundation in both creative
+        design and technical problem-solving. I thrive on transforming ideas
+        into interactive and responsive web applications. When I'm not coding,
+        you might find me exploring new technologies, reading tech blogs, or
+        enjoying playing football, video games and reading novels.
+      </p>
+    </section>
+
+    <!--work section-->
+    <section id="Work">
+      <h2>Work</h2>
+      <h4>Here's a showcase of some of my recent projects:</h4>
+      <p>Project 1: Resturant webpage</p>
+      <p>Project 2: building my portfolio</p>
+      <p>Project 3: Working on bootstrap</p>
+
+      <div id="video">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/ts0mU1_fQVA?si=hD6cMwwtxfr1hrpq"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+    <!-- Resume section -->
+    <section id="Resume">
+      <h2>Resume</h2>
+
+      <ul id="resume2">
+        <li>
+          QUALITY AND SAFETY DEPARTMENT, CAVERTON HELICOPTERS:
+          Internship/Quality Officer.
+        </li>
+        <li>
+          FEDERAL AIRPORT AUTHORITY OF NIGERIA (FAAN): Internship/Safety
+          Officer.
+        </li>
+        <li>
+          NIGERIAN AIRSPACE MANAGEMENT AGENCY, ILORIN KWARA STATE:
+          Internship/Electrical Apprentice.
+        </li>
+      </ul>
+    </section>
+    <!-- contact section -->
+    <section id="Contact">
+      <h2>Contact</h2>
+      <p>
+        I'd love to hear from you! Whether you're interested in collaborating on
+        a project or just want to chat about web development, feel free to reach
+        out.
+      </p>
+      <div class="form">
+        <label for="Name">Name</label>
+        <input type="text" id="NAME" />
+
+        <label for="Email">Email</label>
+        <input type="email" id="email" />
+
+        <label for="Github ">Github Username</label>
+        <input type="Github" id="github" />
+
+        <label for="Message">Message</label>
+        <input type="message" id="textarea" />
+      </div>
+
+      <!-- footer section -->
+      <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>Follow me on:</p>
+
+        <div class="icon">
+        <i class="bi bi-twitter-x"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-github"></i>
+        </div>
+        
+      </footer>
+
+      <h3>Thank you for visiting my portfolio!</h3>
+    </section>
+  </body>
+</html>
