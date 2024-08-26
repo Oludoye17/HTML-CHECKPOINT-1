@@ -1,0 +1,134 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Classic Restuarant Menu</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+                color: #333;
+            }
+            .container {
+                width: 80%;
+                margin: auto;
+                overflow: hidden;
+            }
+            header {
+                background: #333;
+                color: #fff;
+                padding-top: 30px;
+                min-height: 70px;
+                border-bottom: #ddd 3px solid;
+                text-align: center;
+            }
+            header h1 {
+                margin: 0;
+                font-size: 24px;
+            }
+            h2 {
+                color: #333;
+            }
+            ul {
+                list-style: none;
+                padding: 0;
+            }
+            ul li {
+                margin-bottom: 10px;
+            }
+            a {
+                color: #333;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            footer {
+                text-align: center;
+                padding: 10px 0;
+                bottom: 0;
+                width: 100%;
+            }
+        .contact-form{
+        padding: 20px;
+        background: #f4f4f4;
+        margin: 20px 0;
+        width: 100%;
+        margin: 0;
+      }
+      .contact-form input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+        </style>
+    </head>
+    <body>
+        <!--Restaurant name section-->
+        <header>
+            <h1>Classic Palace Resturant</h1>
+        </header>
+        <div class="container">
+            <section>
+                <h2>Appetizers</h2>
+                <ul>
+                    <li><strong>Bruschetta:</strong> Toasted bread topped with a mixture of tomatoes, basil, and garlic.</li>
+                    <li><strong>Stuffed Mushrooms:</strong> Mushrooms filled with a blend of cheeses, herbs, and spices.</li>
+                    <li><strong>Spring Rolls:</strong> Crispy rolls stuffed with fresh vegetables and served with a sweet dipping sauce.</li>
+                </ul>
+            </section>
+
+            <!-- main courses section -->
+            <section>
+                <h2>Main Courses</h2>
+                <ul>
+                    <li><strong>Grilled Salmon:</strong> Fresh salmon fillet grilled to perfection and served with a lemon dill sauce.</li>
+                    <li><strong>Chicken Alfredo:</strong> Tender chicken pieces in a creamy Alfredo sauce, served over fettuccine pasta.</li>
+                    <li><strong>Vegetable Stir-fry:</strong> A medley of vegetables stir-fried in a savory sauce, served with jasmine rice.</li>
+                </ul>
+            </section>
+
+            <!-- Desserts Section -->
+    
+            <section>
+                <h2>Desserts</h2>
+                <ul>
+                    <li><strong>Chocolate Lava Cake:</strong> Rich chocolate cake with a molten center, served with vanilla ice cream.</li>
+                    <li><strong>Cheesecake:</strong> Creamy cheesecake with a graham cracker crust, topped with a strawberry compote.</li>
+                    <li><strong>Tiramisu:</strong> Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream.</li>
+                </ul>
+            </section>
+        </div>
+        <!-- contact section -->
+        <footer>
+            
+             <h1>Contact Us</h1>
+    <form class="contact-form" action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name"  placeholder=" Name" >
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder=" Email Address" >
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" placeholder="Subject of Your Message" >
+
+        <label for="message">Message:</label>
+        <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+        </footer>
+    </body>
+    </html>
+    
+</body>
+</html>
